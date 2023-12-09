@@ -12,7 +12,7 @@
     "checkAll": "npm run check && npm run lint",
     "fixAll": "npm run format && npm run lintfix",
     "build": "gulp build",
-    "gulp": "gulp",
+    "dev": "gulp",
     "clean":"gulp clean",
     "fixAllandBuild":"npm run fixAll && npm run build",
     "lintfixAndPush": "npm run fixAll && git add . && git commit -m 'A_few_changes' && git push"

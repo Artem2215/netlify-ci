@@ -14,8 +14,9 @@
     "build": "gulp build",
     "gulp": "gulp",
     "clean":"gulp clean",
-    "fixAllandBuild":"npm run fixAll && npm run build"
-  },
+    "fixAllandBuild":"npm run fixAll && npm run build",
+    "lintfixAndPush": "npm run fixAll && git add . && git commit -m 'A_few_changes' && git push"
+},
   "author": "",
   "license": "ISC",
   "devDependencies": {
